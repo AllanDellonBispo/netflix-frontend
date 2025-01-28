@@ -19,11 +19,11 @@
                   <li><a class="dropdown-item" href="#">Inglês</a></li>
                 </ul>
             </div>
-            <button id="enter" class="btn text-light fw-semibold">Entrar</button>
+            <button id="enter" class="btn text-light fw-semibold" onclick="goToLogin()">Entrar</button>
         </div>
     </header>
 
-    <main class="text-light d-flex flex-column align-items-center justify-content-center">
+    <main id="mainRegister" class="text-light d-flex flex-column align-items-center justify-content-center">
         <h2 class="fw-bold p-4 fontTitleRegister text-center">Filmes, séries e muito mais, sem limites</h2>
         <h3 class="fs-4 p-4">A partir de R$ 20,90. Cancele quando quiser.</h3>
         <h4 class="fs-5 fw-medium">Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h4>
@@ -33,10 +33,36 @@
             <button id="enter" class="btn text-light fw-bold ms-2 fs-3 ps-4 pe-4" onclick="goToLogin()">Vamos lá</button>
         </div>
 
+        <div id="more" class="w-100 mb-5 d-flex flex-column justify-content-center align-items-center">
+            <section class="w-75 d-flex justify-content-center mt-5">
+                <img src="../assets/icon/icon_pipoca.png" alt="" class="iconPipoca me-4 mt-2">
+                <div id="cardMore" class="d-flex w-75 rounded-4 justify-content-between align-items-center ps-5 pe-5 cardMoreHover">
+                    <div class="d-flex flex-column">
+                        <span class="fs-5 fw-bold">A Netflix que você adora por apenas R$ 20,90.</span>
+                        <span class="fw-semibold">Aproveite nossa opção mais acessível, o plano com anúncios.</span>
+                    </div>
+                    <button class="btn bg-secondary pt-0 pb-0 ps-4 pe-4 h-75 text-light rounded-2 fw-semibold">Saiba mais</button>
+                </div>
+            </section>
+
+            <section id="carousel" class="w-75 mt-5">
+                <h2 class="mb-4">Em alta</h2>
+            </section>
+
+            <section>Mais motivos para assinar</section>
+
+            <section>Perguntas frequentes</section>
+
+            <section>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</section>
+        </div>
+
     </main>
+
+    <footer>...</footer>
     
 
 
+    <script src="../src/js/register.js"></script>
     <script src="../src/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
