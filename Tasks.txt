@@ -1,0 +1,1 @@
+Verificar faixa branca na parte de perguntas e o porque a cor de fundo fica branca quando clica F12

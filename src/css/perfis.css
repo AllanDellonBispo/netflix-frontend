@@ -1,0 +1,51 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #141414;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1{
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.card{
+    height: 250px;
+    width: 220px;
+    background-color: #141414;
+    color: #808080;
+    border: 1px solid #141414;
+}
+
+.linkIcon:hover img{
+    border: 3px solid aliceblue;
+}
+
+.linkIcon:hover span{
+    color: aliceblue;
+}
+
+.iconPerfil{
+    width: 100%;
+    height: 80%;
+    border-radius: 2%;
+}
+
+a span{
+    color: #808080;
+}
+
+.btn:hover, .btn:focus {
+    box-shadow: none;
+    background-color: inherit;
+    color: inherit;
+    border-color: inherit;
+}
