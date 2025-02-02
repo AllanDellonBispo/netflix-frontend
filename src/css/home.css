@@ -1,0 +1,82 @@
+html, body{
+    height: 100%;
+}
+
+
+body{
+    color: aliceblue;
+}
+
+.titleNetflix{
+    width: 6%;
+    height: 6%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.linkMenu{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+main{
+    height: 100%;
+}
+
+#initialSerie{
+    background-image: url(../../assets/img/home/tv-4k-peaky-blinders-cast-6pftbk66v8apumfa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 3%;
+    z-index: 2;
+
+}
+
+#initialSerie button{
+    height: 54px;
+    margin-top: 22%;
+    display: flex;
+    align-items: center;
+}
+
+#keepWatching{
+    height: 500px;
+    width: 100%;
+    /* overflow-x: hidden; */
+}
+
+#keepWatching:before {
+    content: '';
+    position: absolute;
+    top: 640px;
+    left: -10px;
+    right: -10px;
+    bottom: -30px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #212529e3 50%, #212529 100%);
+    filter: blur(8px); /* Efeito de desfoque */
+    pointer-events: none; /* Para não interferir com interações */
+  }
+
+.teste{
+    margin-top: -100px;
+}
+
+.mediaCard{
+    min-width: 320px;
+    height: 180px;
+    border-radius: 2%;
+    background-size: cover;
+    transition: filter 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.mediaCard:hover{
+    filter: brightness(0.8);
+    transform: scale(1.1);
+}
