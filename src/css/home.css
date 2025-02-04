@@ -26,8 +26,12 @@ a{
     color: aliceblue;
 }
 
-#teste{
+#itemsOptions{
     background-color: #000000b4;
+}
+
+#itemsOptions li a:hover{
+    background-color: #ff0000b4;
 }
 
 main{
@@ -86,7 +90,7 @@ main{
     transform: scale(1.1);
 }
 
-#prevBtn, #nextBtn{
+.prevBtn, .nextBtn{
     z-index: 2;
     position: absolute;
     top: 50%;
@@ -94,12 +98,12 @@ main{
     display: none;
 }
 
-#prevBtn{
+.prevBtn{
     left: 10px;
     cursor: pointer;
 }
 
-#nextBtn{
+.nextBtn{
     right: 10px;
     cursor: pointer;
 }
@@ -108,7 +112,7 @@ main{
     max-width: 26%;
 }
 
-.carousel:hover #prevBtn{
+.carousel:hover .prevBtn{
     display: block;
 }
 
