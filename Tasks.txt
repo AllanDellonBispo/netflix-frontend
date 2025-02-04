@@ -1,1 +1,3 @@
-Verificar faixa branca na parte de perguntas e o porque a cor de fundo fica branca quando clica F12
+Consertar button next (.carousel) quando tem mais ou menos cards o mesmo varia de posição
+
+Criar lista de objetos para cards com categoria e Gênero (usar o filter para filtrar por essas duas opções e montar os outros cards baseados nisso)

@@ -5,6 +5,7 @@ html, body{
 
 body{
     color: aliceblue;
+    overflow-x: hidden;
 }
 
 .titleNetflix{
@@ -23,6 +24,10 @@ a{
 .linkMenu{
     text-decoration: none;
     color: aliceblue;
+}
+
+#teste{
+    background-color: #000000b4;
 }
 
 main{
@@ -64,7 +69,7 @@ main{
     pointer-events: none; /* Para não interferir com interações */
   }
 
-.teste{
+#keepWatching > div:first-child{
     margin-top: -100px;
 }
 
@@ -80,3 +85,30 @@ main{
     filter: brightness(0.8);
     transform: scale(1.1);
 }
+
+#prevBtn, #nextBtn{
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: none;
+}
+
+#prevBtn{
+    left: 10px;
+    cursor: pointer;
+}
+
+#nextBtn{
+    right: 10px;
+    cursor: pointer;
+}
+
+.carousel{
+    max-width: 26%;
+}
+
+.carousel:hover #prevBtn{
+    display: block;
+}
+

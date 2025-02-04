@@ -30,7 +30,15 @@
                 <a href="" class="linkMenu"><i class="fa-solid fa-magnifying-glass"></i></a>
                 <a href="" class="linkMenu"><span>Infantil</span></a>
                 <a href="" class="linkMenu"><i class="fa-regular fa-bell"></i></a>
-                <a href="" class="linkMenu"><i class="fa-solid fa-house-user"></i></a>
+
+                <div class="dropdown">
+                        <a href="" class="linkMenu dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-house-user"></i></a>
+                    <ul class="dropdown-menu rounded-0" id="teste" >
+                      <li><a class="dropdown-item text-light" href="./perfil.html"><i class="fa-solid fa-pencil me-3"></i>Gerenciar Perfis</a></li>
+                      <li><a class="dropdown-item text-light" href="./index.html"><i class="fa-solid fa-door-open me-3"></i>Sair da Netflix</a></li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     </header>
@@ -42,9 +50,21 @@
         </section>
 
         <section id="keepWatching" class="bg-dark ps-5 ">
-            <div class="teste position-absolute z-2">
+            <div class="position-absolute z-2">
                 <h2 class="text-light mb-3">Continuar assistindo</h2>
-                <div id="keepWatchingMediaCard" class="d-flex gap-4"></div>
+                <div class="carousel d-flex align-items-center position-relative">
+
+                     <a id="prevBtn" class="mb-4">
+                        <i class="fa-solid fa-chevron-left position-absolute z-2 fs-2 text-light"></i>
+                    </a>
+
+                    <div id="keepWatchingMediaCard" class="d-flex gap-4 position-relative z-1"></div>
+
+                    <a id="nextBtn">
+                        <i class="fa-solid fa-chevron-right position-absolute z-2 fs-2 text-light"></i>
+                    </a>
+
+                </div>
             </div>
         </section>
     </main>
