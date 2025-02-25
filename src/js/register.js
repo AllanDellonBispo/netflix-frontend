@@ -1,19 +1,19 @@
 const trendingPrograms = [
     {title:'Anne whit E', linkImg:'anne.jpg'},
-    {title:'Bridgerton', linkImg:'bridgerton.jpg'},
-    {title:'Starnger Things', linkImg: 'starnger_things_temporada-5.jpg'},
-    {title:'Elite', linkImg: 'Elite.jpg'},
-    {title:'Peaky Blinders', linkImg: 'peaky-blinders.jpg'},
-    {title:'Naruto', linkImg: 'naruto.jpg'}
+    {title:'Bridgerton', linkImg:'la_chronique_des_bridgerton.webp'},
+    {title:'Starnger Things', linkImg: '71+05bXxNAL._AC_UF1000,1000_QL80_.jpg'},
+    {title:'Elite', linkImg: 'elite-cast-members-xlofhbdmuxbeqjop.jpg'},
+    {title:'Peaky Blinders', linkImg: 'MV5BM2ZiNThlNzItNmY3Ny00NjA2LWJlMjItNTk1NDI3MDMyMTk4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg'},
+    {title:'Naruto', linkImg: 'Naruto.jpeg'}
 ]
 
 const FrequentlyQuestions = [
-    {id:1, title:'O que é a Netflix?', response:'A Netflix é um serviço de streaming que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet. Você pode assistir a quantos filmes e séries quiser, quando e onde quiser – tudo por um preço mensal acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes.'},
-    {id:2, title:'Quanto custa a Netflix?', response:'Assista à Netflix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por uma taxa mensal única. Os planos variam de R$ 20,90 a R$ 59,90 por mês. Sem contrato nem taxas extras.'},
-    {id:3, title:'Onde posso assistir?', response:'Assista onde quiser, quando quiser. Acesse sua conta Netflix em netflix.com para assistir no computador ou em qualquer aparelho conectado à internet compatível com o aplicativo Netflix, como Smart TVs, smartphones, tablets, aparelhos de streaming e videogames. Você também pode baixar suas séries favoritas com o aplicativo Netflix para iOS ou Android. Use os downloads para levar a Netflix para onde quiser sem precisar de conexão com a internet. Leve a Netflix com você para qualquer lugar.'},
-    {id:4, title:'Como faço para cancelar?', response:'A Netflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta na internet com apenas dois cliques. Não há taxa de cancelamento – você pode começar ou encerrar a sua assinatura a qualquer momento.'},
-    {id:5, title:'O que eu posso assistir na Netflix?', response:'A Netflix tem um grande catálogo de filmes, documentários, séries, originais Netflix premiados e muito mais. Assista o quanto quiser, quando quiser.'},
-    {id:6, title:'A netflix é adequada para crianças?', response:'A experiência infantil da Netflix faz parte da sua assinatura para que as crianças se divirtam em seu próprio espaço com séries e filmes familiares sob a supervisão dos responsáveis.'}
+    {id:1, title:'O que é a StreamFlix?', response:'A StreamFlix é um serviço de streaming que oferece uma ampla variedade de séries, filmes e documentários premiados em milhares de aparelhos conectados à internet. Você pode assistir a quantos filmes e séries quiser, quando e onde quiser – tudo por um preço mensal acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos novas séries e filmes.'},
+    {id:2, title:'Quanto custa a StreamFlix?', response:'Assista à StreamFlix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por uma taxa mensal única. Os planos variam de R$ 20,90 a R$ 59,90 por mês. Sem contrato nem taxas extras.'},
+    {id:3, title:'Onde posso assistir?', response:'Assista onde quiser, quando quiser. Acesse sua conta StreamFlix em StreamFlix.com para assistir no computador ou em qualquer aparelho conectado à internet compatível com o aplicativo StreamFlix, como Smart TVs, smartphones, tablets, aparelhos de streaming e videogames. Você também pode baixar suas séries favoritas com o aplicativo StreamFlix para iOS ou Android. Use os downloads para levar a StreamFlix para onde quiser sem precisar de conexão com a internet. Leve a StreamFlix com você para qualquer lugar.'},
+    {id:4, title:'Como faço para cancelar?', response:'A StreamFlix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta na internet com apenas dois cliques. Não há taxa de cancelamento – você pode começar ou encerrar a sua assinatura a qualquer momento.'},
+    {id:5, title:'O que eu posso assistir na StreamFlix?', response:'A StreamFlix tem um grande catálogo de filmes, documentários, séries, originais StreamFlix premiados e muito mais. Assista o quanto quiser, quando quiser.'},
+    {id:6, title:'A StreamFlix é adequada para crianças?', response:'A experiência infantil da StreamFlix faz parte da sua assinatura para que as crianças se divirtam em seu próprio espaço com séries e filmes familiares sob a supervisão dos responsáveis.'}
 ]
 
 function createCarousel(){

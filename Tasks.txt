@@ -1,8 +1,0 @@
-Consertar button next (.carousel) quando tem mais ou menos cards o mesmo varia de posição
-
-Criar lista de objetos para cards com categoria e Gênero (usar o filter para filtrar por essas duas opções e montar os outros cards baseados nisso)
-
-Deixar o header da tela home com cor de fundo ao descer a tela
-
-
-deixar cards mais pra cima

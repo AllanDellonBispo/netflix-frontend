@@ -1,67 +1,67 @@
 const keepWatchingMediaCard = [
-    {title:'Naruto', genero:'Anime', linkImg:'naruto_classic.jpg'},
-    {title:'The chosen', genero:'gospel', linkImg:'the_chosen.jpg'},
-    {title:'Os Pinguins de Madagascar', genero:'Animação', linkImg:'os_pinguins.jpg'},
-    {title:'Anne With An E', genero:'Drama', linkImg:'anne_with_an_e.jpg'},
-    {title:'Madagascar 2', genero:'Animação', linkImg:'madagascar2.jpg'},
-    {title:'Angry Birds', genero:'Animação', linkImg:'angry_birds.png'},
-    {title:'The Witcher', genero:'Ação', linkImg:'The_witcher.jpg'},
-    {title:'Homem aranah no aranha verso', genero:'Animação', linkImg:'homem_aranha_aranha_verso.jpg'},
-    {title:'The flash', genero:'Ação', linkImg:'flash.jpg'},
-    {title:'One Piece Live Action', genero:'aventura', linkImg:'One_Piece_live_action.jpg'},
-    {title:'One Piece', genero:'Anime', linkImg:'One_piece.jpg'},
-    {title:'Naruto Shippuden', genero:'Anime', linkImg:'Naruto_shippuden.jpg'},
-    {title:'Pets', genero:'Animação', linkImg:'pets.jpg'},
-    {title:'Black Clover', genero:'Anime', linkImg:'black_clover.jpg'},
-    {title:'Hunter X Hunter', genero:'Anime', linkImg:'hunter_x_hunter.jpg'},
-    {title:'One Punch Man', genero:'Anime', linkImg:'One-Punch.jpg'},
-    {title:'Demon Slayer', genero:'Anime', linkImg:'demon_slayer.jpg'},
-    {title:'Kung Fu Panda 3', genero:'Animação', linkImg:'kung_fu_panda.jpg'},
-    {title:'Minions 2', genero:'Animação', linkImg:'minions_2.jpg'},
-    {title:'Resgate 2', genero:'Ação', linkImg:'resgate_2.jpg'},
+    {title:'Naruto', genero:'Anime', linkImg:'anime/naruto_classic.jpeg'},
+    {title:'Gospel1', genero:'Gospel', linkImg:'gospel/The_chosen.jpg'},
+    {title:'Anne With An E', genero:'Drama', linkImg:'drama/anne_with_an_e.jpg'},
+    {title:'Angry Birds', genero:'Animação', linkImg:'animacao/Angry_birds.jpeg'},
+    {title:'Gato de Botas', genero:'Animação', linkImg:'animacao/Gato_de_botas.jpeg'},
+    {title:'Minions', genero:'Animação', linkImg:'animacao/Minions.jpeg'},
+    {title:'Pokemon', genero:'Animação', linkImg:'animacao/Pokemon.jpeg'},
+    {title:'The Flash', genero:'Ação', linkImg:'acao/the_flash.jpg'},
+    {title:'The Witcher', genero:'Ação', linkImg:'acao/The_witcher.jpg'},
+    {title:'Spiderverse', genero:'Ação', linkImg:'acao/spider_verse_spider.jpg'},
+    {title:'One Piece', genero:'Anime', linkImg:'anime/One_piece.jpeg'},
+    {title:'Naruto Shippuden', genero:'Anime', linkImg:'anime/Naruto_shippuden.jpeg'},
+    {title:'One Punch Man', genero:'Anime', linkImg:'anime/One_Punch_Man.jpg'},
+    {title:'Black Clover', genero:'Anime', linkImg:'anime/Black_clover.jpeg'},
+    {title:'Hunter X Hunter', genero:'Anime', linkImg:'anime/HunterxHunter.jpeg'},
+    {title:'Demon Slayer', genero:'Anime', linkImg:'anime/Demon_Slayer.jpg'},
+    {title:'Avengers', genero:'Ação', linkImg:'acao/avengers.jpg'},
+    {title:'Gospel3', genero:'Gospel', linkImg:'gospel/Gospel3.jpeg'},
+    {title:'Gospel4', genero:'Gospel', linkImg:'gospel/Gospel4.jpeg'},
+    {title:'Gospel5', genero:'Gospel', linkImg:'gospel/Gospel5.jpeg'},
 ];
-
 
 const AllMediaCard = [
-    {title:'The chosen', genero:'Gospel', linkImg:'the_chosen.jpg'},
-    {title:'Naruto', genero:'Anime', linkImg:'naruto_classic.jpg'},
-    {title:'Os Pinguins de Madagascar', genero:'Animação', linkImg:'os_pinguins.jpg'},
-    {title:'Anne With An E', genero:'Drama', linkImg:'anne_with_an_e.jpg'},
-    {title:'Madagascar 2', genero:'Animação', linkImg:'madagascar2.jpg'},
-    {title:'Angry Birds', genero:'Animação', linkImg:'angry_birds.png'},
-    {title:'The Witcher', genero:'Ação', linkImg:'The_witcher.jpg'},
-    {title:'Homem aranah no aranha verso', genero:'Animação', linkImg:'homem_aranha_aranha_verso.jpg'},
-    {title:'The flash', genero:'Ação', linkImg:'flash.jpg'},
-    {title:'One Piece Live Action', genero:'Ação', linkImg:'One_Piece_live_action.jpg'},
-    {title:'One Piece', genero:'Anime', linkImg:'One_piece.jpg'},
-    {title:'Naruto Shippuden', genero:'Anime', linkImg:'Naruto_shippuden.jpg'},
-    {title:'Pets', genero:'Animação', linkImg:'pets.jpg'},
-    {title:'Black Clover', genero:'Anime', linkImg:'black_clover.jpg'},
-    {title:'Hunter X Hunter', genero:'Anime', linkImg:'hunter_x_hunter.jpg'},
-    {title:'One Punch Man', genero:'Anime', linkImg:'One-Punch.jpg'},
-    {title:'Demon Slayer', genero:'Anime', linkImg:'demon_slayer.jpg'},
-    {title:'Kung Fu Panda 3', genero:'Animação', linkImg:'kung_fu_panda.jpg'},
-    {title:'Minions 2', genero:'Animação', linkImg:'minions_2.jpg'},
-    {title:'Resgate 2', genero:'Ação', linkImg:'resgate_2.jpg'},
-    {title:'Esquadrão 6', genero:'Ação', linkImg:'esquadrao_6.jpg'},
-    {title:'Hancock', genero:'Ação', linkImg:'hancock.jpg'},
-    {title:'Venom', genero:'Ação', linkImg:'Venom.png'},
-    {title:'Velozes e Furiosos 6', genero:'Ação', linkImg:'velozes_e_furiosos_6.jpg'},
-    {title:'A cabana', genero:'Drama', linkImg:'a_cabana.jpg'},
-    {title:'Meu primeiro amor', genero:'Drama', linkImg:'meu_primeiro_amor.jpg'},
-    {title:'Extraordinario', genero:'Drama', linkImg:'extraordinario.jpg'},
-    {title:'O menino do pijama listrado', genero:'Drama', linkImg:'O_menino_do_pijama_listrado.jpg'},
-    {title:'A procura da felicidade', genero:'Drama', linkImg:'A_procura_da_felicidade.jpg'},
-    {title:'Quarto de guerra', genero:'Gospel', linkImg:'quarto_de_guerra.jpeg'},
-    {title:'Deus não esta morto 2', genero:'Gospel', linkImg:'Deus_nao_esta_morto_2.jpg'},
-    {title:'Amor de redencao', genero:'Gospel', linkImg:'amor_de_redencao.jpg'},
-    {title:'No ritmo da fe', genero:'Gospel', linkImg:'no_ritmo_da_fe.jpg'},
-    {title:'Jogada de rei', genero:'Gospel', linkImg:'jogada_de_rei.jpg'},
+    {title:'The chosen', genero:'Gospel', linkImg:'gospel/The_chosen.jpg'},
+    {title:'Gospel2', genero:'Gospel', linkImg:'gospel/Gospel2.jpeg'},
+    {title:'Gospel3', genero:'Gospel', linkImg:'gospel/Gospel3.jpeg'},
+    {title:'Gospel4', genero:'Gospel', linkImg:'gospel/Gospel4.jpeg'},
+    {title:'Gospel5', genero:'Gospel', linkImg:'gospel/Gospel5.jpeg'},
+    {title:'Gospel6', genero:'Gospel', linkImg:'gospel/Gospel6.jpeg'},
+    {title:'Gospel7', genero:'Gospel', linkImg:'gospel/Gospel7.jpeg'},
+
+    {title:'Angry Birds', genero:'Animação', linkImg:'animacao/Angry_birds.jpeg'},
+    {title:'Gato de Botas', genero:'Animação', linkImg:'animacao/Gato_de_botas.jpeg'},
+    {title:'Minions', genero:'Animação', linkImg:'animacao/Minions.jpeg'},
+    {title:'Pokemon', genero:'Animação', linkImg:'animacao/Pokemon.jpeg'},
+    {title:'Kung Fu Panda', genero:'Animação', linkImg:'animacao/kung_fu_panda.jpeg'},
+    {title:'Madagascar 3', genero:'Animação', linkImg:'animacao/madagascar3.jpeg'},
+    {title:'Shrek 1', genero:'Animação', linkImg:'animacao/shrek1.jpeg'},
+
+    {title:'Naruto', genero:'Anime', linkImg:'anime/naruto_classic.jpeg'},
+    {title:'One Piece', genero:'Anime', linkImg:'anime/One_piece.jpeg'},
+    {title:'One Punch Man', genero:'Anime', linkImg:'anime/One_Punch_Man.jpg'},
+    {title:'Black Clover', genero:'Anime', linkImg:'anime/Black_clover.jpeg'},
+    {title:'Hunter X Hunter', genero:'Anime', linkImg:'anime/HunterxHunter.jpeg'},
+    {title:'Demon Slayer', genero:'Anime', linkImg:'anime/Demon_Slayer.jpg'},
+    {title:'Naruto Shippuden', genero:'Anime', linkImg:'anime/Naruto_shippuden.jpeg'},
+
+    // {title:'Meu primeiro amor', genero:'Drama', linkImg:'meu_primeiro_amor.jpg'},
+    // {title:'Extraordinario', genero:'Drama', linkImg:'extraordinario.jpg'},
+    // {title:'O menino do pijama listrado', genero:'Drama', linkImg:'O_menino_do_pijama_listrado.jpg'},
+    // {title:'A procura da felicidade', genero:'Drama', linkImg:'A_procura_da_felicidade.jpg'},
+    // {title:'A cabana', genero:'Drama', linkImg:'a_cabana.jpg'},
+    // {title:'Anne With An E', genero:'Drama', linkImg:'anne_with_an_e.jpg'},
+
+    {title:'The Flash', genero:'Ação', linkImg:'acao/the_flash.jpg'},
+    {title:'The Witcher', genero:'Ação', linkImg:'acao/The_witcher.jpg'},
+    {title:'Spiderverse', genero:'Ação', linkImg:'acao/spider_verse_spider.jpg'},
+    {title:'X-men', genero:'Ação', linkImg:'acao/x_men.jpg'},
+    {title:'Jurassic Park', genero:'Ação', linkImg:'acao/jurassic_park.jpg'},
+    {title:'Avengers', genero:'Ação', linkImg:'acao/avengers.jpg'},
+    {title:'Batman', genero:'Ação', linkImg:'acao/batman_begins.jpg'},
     
 ];
-
-// Receber uma lista na função create
-// Usar uma outra função que usa a função create porém em looping para criar todos os conteúdos
 
 function createKeepWatching(listContent) {
 
@@ -110,18 +110,7 @@ createKeepWatching(keepWatchingMediaCard);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-function createKeepWatching2(listContent, genero) {
+function createCarouselCategory(listContent, genero) {
 
     // alert('teste')
     let teste = document.querySelector('.teste');
@@ -177,36 +166,15 @@ function createKeepWatching2(listContent, genero) {
 }
 
 
-// tentar fazer uma busca dos Gêneros da list e trazer a quantidade ex: 7 gêneros
-// percorre a list 7 vezes e fazer um filtro por categoria
-
-function test(){
+function created(){
     // alert('teste1')
     const generosUnicos = [...new Set(AllMediaCard.map(e => e.genero))];
     generosUnicos.forEach((e) => {
-        createKeepWatching2(AllMediaCard, e);
+        createCarouselCategory(AllMediaCard, e);
     })
 }
 
-test();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+created();
 
 
 

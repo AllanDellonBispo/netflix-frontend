@@ -8,9 +8,14 @@ body{
     overflow-x: hidden;
 }
 
-.titleNetflix{
-    width: 6%;
-    height: 6%;
+header{
+    width: 100vw;
+}
+
+.titleStreamFlix{
+    width: 12%;
+    height: 12%;
+    cursor: pointer;
 }
 
 li{
@@ -24,6 +29,10 @@ a{
 .linkMenu{
     text-decoration: none;
     color: aliceblue;
+}
+
+.linkMenu:hover{
+    color: rgb(212, 212, 212);
 }
 
 #itemsOptions{
@@ -45,7 +54,15 @@ main{
     height: 100vh;
     padding: 3%;
     z-index: 2;
+    align-items: baseline;
 
+}
+
+#initialSerie h2{
+    font-size: 96px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 8px #212529;
+    margin-top: 6%;
 }
 
 #initialSerie button{
@@ -67,14 +84,15 @@ main{
     top: 640px;
     left: -10px;
     right: -10px;
-    bottom: -30px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #212529e3 50%, #212529 100%);
+    bottom: -20px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #212529f6 50%, #212529 100%);
     filter: blur(8px); /* Efeito de desfoque */
     pointer-events: none; /* Para não interferir com interações */
   }
 
 #keepWatching > div:first-child{
     margin-top: -100px;
+    width: 100vw;
 }
 
 .mediaCard{
@@ -109,7 +127,7 @@ main{
 }
 
 .carousel{
-    max-width: 26%;
+    max-width: 90vw;
 }
 
 .carousel:hover .prevBtn{
