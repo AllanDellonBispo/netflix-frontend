@@ -103,16 +103,10 @@ function createKeepWatching(listContent) {
 
 }
 
-// Chama a função para criar os elementos
 createKeepWatching(keepWatchingMediaCard);
-
-
-
-
 
 function createCarouselCategory(listContent, genero) {
 
-    // alert('teste')
     let teste = document.querySelector('.teste');
     teste.style.backgroundColor = '#212529';
 
@@ -122,7 +116,6 @@ function createCarouselCategory(listContent, genero) {
 
     teste.append(titleSection);
 
-    // let carousel = document.querySelector('.carousel');
     let carousel = document.createElement('div');
     carousel.classList.add('carousel', 'd-flex', 'align-items-center', 'position-relative', 'mb-5');
     
@@ -167,7 +160,6 @@ function createCarouselCategory(listContent, genero) {
 
 
 function created(){
-    // alert('teste1')
     const generosUnicos = [...new Set(AllMediaCard.map(e => e.genero))];
     generosUnicos.forEach((e) => {
         createCarouselCategory(AllMediaCard, e);
@@ -178,7 +170,6 @@ created();
 
 
 
-    // Adiciona os eventos aos botões após a criação dos elementos
     const prevBtn = document.querySelector(".prevBtn");
     const nextBtn = document.querySelector(".nextBtn");
     let position = 0; // Largura do card + gap
